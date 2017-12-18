@@ -89,6 +89,8 @@ public class AddTaskActivity extends AppCompatActivity {
             mPriority = 2;
         } else if (((RadioButton) findViewById(R.id.radButton3)).isChecked()) {
             mPriority = 3;
+
+            System.out.println("Hello");
         }
     }
 }
